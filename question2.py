@@ -16,5 +16,5 @@ elif average_marks >= 60:
 else:
     grade = "F"
 
-print(f"\nAverage Marks: {average_marks}")
+print(f"Average Marks: {average_marks:.2f}")
 print(f"Your Grade is : {grade}")

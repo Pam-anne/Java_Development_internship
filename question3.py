@@ -1,7 +1,7 @@
 cart = {}
 
 while True:
-    print("\nMenu:")
+    print("Menu:")
     print("1. Add item to cart")
     print("2. Remove item from cart")
     print("3. Calculate total price")
@@ -26,7 +26,7 @@ while True:
 
     elif choice == '3':
         if cart:
-            print("\nTotal Price:")
+            print("Total Price:")
             total = 0
             for item, price in cart.items():
                 print(f"{item}: Ksh {price}")
